@@ -1,1 +1,1 @@
-
+Neste branch está o código corrigido seguindo o principio de Segregação de Interface (Interface Segregation), onde a interface TaxService foi segregada em brazilTaxService, usaTaxService e mexicanTaxService, cada qual possui o seu respectivo método para calcular o imposto baseado no seu pais e nas regras de negócio do mesmo.
