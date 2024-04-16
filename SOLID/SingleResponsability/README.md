@@ -1,0 +1,1 @@
+Nesta branch está o código que não segue ao principio de Responsabilidade Unica (Single Responsability), visto que existem dois metodos ("validateAndWithdrawl" e "validateAndDeposit") que possuem duas responsabilidades, onde deveria existir um metodo que valida e outro que faz a operação desejada.
