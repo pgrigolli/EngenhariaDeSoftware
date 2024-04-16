@@ -7,10 +7,14 @@ public class Project {
 
 interface TaxService{
 
-    public double BrazilTaxService(double amount);
-    public double USATaxService(double amount);
-    public double MexicanTaxService(double amount);
+    public double brazilTaxService(double amount);
+    public double usaTaxService(double amount);
+    public double mexicanTaxService(double amount);
 
 
 }
 
+class brasilTaxService{
+
+    
+}
