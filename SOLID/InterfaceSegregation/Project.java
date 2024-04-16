@@ -12,41 +12,20 @@ interface TaxService{
 
 }
 
- class BrasilTaxService implements TaxService{
+ interface BrasilTaxService extends TaxService{
 
-    public double taxService(double amount) {
-
-        if((amount - 20) * 0.3 < 0) return 0; // Just an example, no real tax services calculations here!
-
-        else return (amount - 20) * 0.3;
-
-    }
+    public double brasilTaxService(double amount);
 
 
  }
 
- class USATaxService implements TaxService{
+ interface USATaxService extends TaxService{
 
-
-    public double taxService(double amount){
-
-        if((amount - 15) * 0.45 < 0) return 0; // Just an example, no real tax services calculations here!
-
-        else return (amount - 15) * 0.45;
-
-
-    }
-
-
+    public double usaTaxService(double amount);
  }
 
- class MexicanTaxService implements TaxService{
+interface MexicanTaxService extends TaxService{
 
+   public double mexicanTaxService(double amount);
 
-    public double taxService(double amount){
-
-        if ((amount - 12) * 0.2 < 0) return 0; // Just an example, no real tax services calculations here!
-
-        else return (amount - 12) * 0.2;
-    }
  }
