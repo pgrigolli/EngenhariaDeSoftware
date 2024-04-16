@@ -1,7 +1,7 @@
 ### Interface Segregation / Segregação de Interface
 
 <p>
-  Este principio é um caso particular do Single Responsability (Unica Responsabilidade), porém para interfaces, ou seja, tem como objetivo atribuir uma unica função á interface. Para que isso ocorra, acontece a segregação de uma interface maior em outras menores e mais especificas. Isso facilita a escalabilidade do software e caso exista alguma mudança, só será necessário alterar uma parte do código (a interface em questão).
+  Este principio é um caso particular do Single Responsability (Unica Responsabilidade), porém para interfaces, ou seja, tem como objetivo atribuir uma unica função á interface. Para que isso ocorra, acontece a segregação de uma interface maior em outras menores e mais especificas. Isso facilita a escalabilidade e a reutilização do software, alem de que caso exista alguma mudança, só será necessário alterar uma parte do código (a interface em questão).
 </p>
 
 <p>
