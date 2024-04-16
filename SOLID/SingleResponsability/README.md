@@ -1,0 +1,1 @@
+Neste branch está o codigo corrigido seguindo o principio de Responsabilidade Unica (Single Responsability), onde os metodos "validateAndWithdrawl" e "validateAndDeposit" foram substituidos por um metodo "validate" e outros dois "withdrawl" e "deposit"
