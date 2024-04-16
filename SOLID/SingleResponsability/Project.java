@@ -1,12 +1,5 @@
 class Project{
-//alo grigo
 public static void main(String args[]){
-
-
-
-
-
-
 }
 
 
@@ -22,9 +15,16 @@ class Account{
         this.balance = balance;
     }
 
-    public int validateAndWithdraw(int id, int amount){
 
-        if(id == this.id){
+    public boolean validate(int id){
+        if (id == this.id){
+            return true;
+        }return false;
+    }
+
+    public int Withdraw(int id, int amount){
+
+        if(validate(id)){
             balance -= amount;
             return 1;
         }else{
@@ -33,15 +33,14 @@ class Account{
 
     }
 
-    public int validateAndDeposit(int id, int amount){
+    public int Deposit(int id, int amount){
 
-        if(id == this.id){
+        if(validate(id)){
             balance += amount;
             return 1;
         }else{
             return 0;
         }
-
 
 
     }
