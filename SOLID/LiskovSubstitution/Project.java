@@ -12,6 +12,13 @@ class Bird{
 
 }
 
+class FlyingBirds extends Bird{
+
+    void fly(){
+
+    }
+}
+
 class Penguim extends Bird {
 
     super.peck(); // But they can peck!!!
@@ -19,11 +26,9 @@ class Penguim extends Bird {
     
 }
 
-class Falcon extends Bird {
+class Falcon extends FlyingBirds {
 
-    void fly(){
-
-    }
+    super.fly();
     super.peck();
     // Falcons can fly AND peck!
 }
