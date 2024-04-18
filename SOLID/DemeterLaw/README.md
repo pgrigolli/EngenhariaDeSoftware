@@ -1,0 +1,1 @@
+<p>Nesta branch está o codigo seguindo a lei de Demeter, onde ao inves de termos um metodo para selecionar um peixe aleatoriamente, e depois um outro para ver se esta com fome, existe um metodo (getHungryFish()) que retorna um vetor com todos os peixes que estão com fome, seguindo a Lei de Demeter.</p>
