@@ -1,4 +1,4 @@
-### Creational Pattern / Padrão Criacional
+## Creational Pattern / Padrão Criacional
 
 Os padrões criacionais fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
 
@@ -8,5 +8,5 @@ Neste exemplo em especifico, existem várias subclasses da classe "Shape" que re
 
 Com base no exemplo, podemos notar que existe apenas uma "ShapeFactory", porém duas subclasses "CircleFactory" e "RectangleFactory", as quais criam objetos especificos de sua respectiva classe. Além disso, normalmente a classe Factory possui alguma outra regra de negócio embutida, que neste caso foi representado por "Other stuff".
 
-# Diagrama UML deste exemplo
+### Diagrama UML deste exemplo
 ![FactoryDesignPatternUML drawio](https://github.com/pgrigolli/EngenhariaDeSoftware/assets/141965505/ff974f66-80f4-4ec3-aaf6-449b52c1a568)
