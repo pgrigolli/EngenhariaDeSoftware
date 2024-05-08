@@ -8,3 +8,4 @@ Neste exemplo em especifico, existem várias subclasses da classe "Shape" que re
 
 Com base no exemplo, podemos notar que existe apenas uma "ShapeFactory", porém duas subclasses "CircleFactory" e "RectangleFactory", as quais criam objetos especificos de sua respectiva classe. Além disso, normalmente a classe Factory possui alguma outra regra de negócio embutida, que neste caso foi representado por "Other stuff".
 
+![FactoryDesignPatternUML drawio](https://github.com/pgrigolli/EngenhariaDeSoftware/assets/141965505/ff974f66-80f4-4ec3-aaf6-449b52c1a568)
