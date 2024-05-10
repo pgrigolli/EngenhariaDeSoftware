@@ -1,5 +1,7 @@
 // Adapter Design Pattern
 
+package StructuralPattern;
+
 interface FahrenheitSensor {
     double getTemperature();
 }
